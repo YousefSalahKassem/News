@@ -50,7 +50,7 @@ class NewsViewPage extends StatelessWidget {
                         color: Colors.white,
                         borderRadius: BorderRadius.circular(10)),
                     padding: const EdgeInsets.all(5),
-                    margin: const EdgeInsets.only(top: 30, left: 10),
+                    margin: const EdgeInsets.only(top: 50, left: 10),
                     child: const Icon(
                       Icons.arrow_back,
                     ),
@@ -59,11 +59,11 @@ class NewsViewPage extends StatelessWidget {
               ),
               Positioned(
                 bottom: 0,
-                left: 0,
                 // alignment: Alignment.bottomCenter,
                 child: Container(
                   width: size.width,
-                  margin: const EdgeInsets.all(20),
+                  margin: const EdgeInsets.all(10),
+                  padding: const EdgeInsets.all(1),
                   child: Column(
                     children: [
                       Text(
